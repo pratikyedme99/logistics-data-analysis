@@ -96,6 +96,40 @@ Python starter code demonstrating the proposed analytical workflow.
 ### `Week_1_Strategic_Planning_Logistics_Report.docx`
 Complete Week 1 strategic planning report.
 
-## Author
+---
 
-Pratik Yedme
+## Week 2: Data Collection, Cleaning, and Preprocessing
+
+### Objective
+To prepare logistics and supply chain data for reliable analysis using Python and pandas.
+
+### Dataset
+DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS.
+
+Source: https://data.mendeley.com/datasets/8gx2fvg2k6/5
+
+### Work Completed
+- Inspected the dataset structure and data types.
+- Checked missing values and duplicate records.
+- Standardized column names.
+- Prepared methods for handling missing values.
+- Converted relevant date and time columns.
+- Used the IQR method to identify potential outliers.
+- Demonstrated numerical standardization using StandardScaler.
+- Prepared a Python preprocessing pipeline.
+
+### Files
+- `Week_2_Logistics_Data_Cleaning_Preprocessing_Report_Improved.docx` — Detailed project report.
+- `logistics_week2_cleaning_improved.py` — Python preprocessing script.
+
+### Tools Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+
+### Business Importance
+Clean and reliable data helps logistics managers analyse delivery performance, identify data-quality issues, and make better supply chain decisions.
+
+### Important Note
+The Python script must be run against the downloaded dataset to obtain actual data-quality counts. Potential outliers should be reviewed rather than automatically deleted.
