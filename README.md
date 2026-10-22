@@ -133,3 +133,22 @@ Clean and reliable data helps logistics managers analyse delivery performance, i
 
 ### Important Note
 The Python script must be run against the downloaded dataset to obtain actual data-quality counts. Potential outliers should be reviewed rather than automatically deleted.
+
+---
+
+## Week 3: Advanced Data Analysis and Visualization in Logistics
+
+Python EDA and visualization of a simulated Indian logistics dataset (2,500 shipments, 2025).
+
+## Files
+- `logistics_analysis.py` : simulates the data, cleans it, runs EDA and statistical tests, saves charts
+- `logistics_dataset.csv` : the simulated dataset
+- `charts/` : eight PNG visualizations used in the report
+- `Week3_Logistics_Data_Analysis_Report.docx` : the written report
+
+## Run
+```
+pip install pandas numpy matplotlib seaborn scipy
+python logistics_analysis.py
+```
+Create a `charts/` folder first if it does not exist. The random seed (42) makes results reproducible.
