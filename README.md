@@ -152,3 +152,24 @@ pip install pandas numpy matplotlib seaborn scipy
 python logistics_analysis.py
 ```
 Create a `charts/` folder first if it does not exist. The random seed (42) makes results reproducible.
+
+
+## Week 4: Predictive Modeling and Optimization in Logistics
+
+**Goal:** Predict shipment delivery duration and explore an illustrative operational scenario.
+
+**Dataset:** `Week4_Logistics_Simulated_Dataset.csv` — 1,200 synthetic shipment rows, generated for practice; not real company data.
+
+**Target:** `delivery_days`
+
+**Models:** Linear Regression and Random Forest Regression.
+
+**Evaluation:** MAE, RMSE, and R-squared on a held-out test set.
+
+**Scenario:** Compare predictions under original route congestion and a hypothetical 20-percentage-point reduction. This is not proof of causation.
+
+**Files:** `Week4_Predictive_Modeling_Optimization_Report.docx`, `Week4_Logistics_Simulated_Dataset.csv`, `Week4_Logistics_Predictive_Modeling.py`.
+
+**Run:** `pip install pandas numpy scikit-learn`, then `python Week4_Logistics_Predictive_Modeling.py`.
+
+The script creates `Week4_Model_Evaluation.csv` and `Week4_Optimization_Scenario.csv`. Report actual metrics only after running the script.
